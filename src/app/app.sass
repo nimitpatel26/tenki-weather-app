@@ -1,0 +1,76 @@
+
+@use '../config'
+
+
+
+.mainContainer
+  margin: auto
+  padding: config.$std-padding
+  width: 90%
+  height: fit-content
+  background-color: config.$background-color
+  border-left: config.$main-border
+  border-right: config.$main-border
+  min-height: 700px
+
+.bodyContainer
+  font-family: sans-serif
+
+.header .title, .toolbar * 
+  font-family: config.$main-font
+
+.title, .header, .search
+  display: flex
+  flex-flow: row wrap
+  align-items: center
+  justify-content: space-between
+
+
+.title, .search
+  width: fit-content
+.imgContainer
+  max-width: 100px
+.inputContainer
+  max-width: 200px
+  padding-right: config.$std-padding
+
+.title img, .inputContainer input
+  width: 100%
+.title, .search
+  padding: 0 0 config.$std-padding 0
+
+.toolbar 
+  padding: .5rem 0
+  margin: 0 0 config.$std-padding 0
+
+  display: flex
+  align-items: center
+  justify-content: space-around
+
+  text-align: center
+  font-weight: bold
+  border-top: .1rem black solid
+  border-bottom: .1rem black solid
+
+
+.search button
+  padding: .2rem
+  border: config.$dash-border-blank
+  border-radius: 10%
+  font-weight: bold
+  background: config.$primary-color
+
+.search button:hover
+  border: config.$dash-border
+  background: floralwhite
+
+.toolbar button
+  padding: .2rem
+  border: config.$dash-border-blank
+  border-radius: 10%
+
+
+.toolbar button:hover 
+  border: config.$dash-border
+  border-radius: 10%
+

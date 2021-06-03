@@ -1,0 +1,14 @@
+@use "../../config"
+
+.articlesContainer
+  @include config.std-container
+
+
+.articleCard
+    @include config.std-card
+
+.articleCard:hover
+  @include config.std-card-hover
+
+.articleCard *
+  @include config.std-card-elements

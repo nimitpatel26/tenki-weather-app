@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap')
+
+$primary-color: #7CBAB5
+$background-color: floralwhite
+
+$main-border: .3rem $primary-color solid
+$dash-border: .2rem dashed $primary-color
+$dash-border-blank: .2rem dashed transparent
+
+$main-font: 'Reggae One', sans-serif
+
+$std-padding: 1rem
+
+
+@mixin std-container
+  display: flex
+  flex-flow: row wrap
+  width: 100%
+  height: fit-content
+
+@mixin std-card
+  max-width: 300px
+  font-family: sans-serif
+  padding: .5rem
+  margin-right: $std-padding
+  margin-bottom: $std-padding
+  border: $dash-border
+  background: white
+
+@mixin std-card-hover
+    background: $primary-color
+
+@mixin std-card-elements
+  margin-right: .5rem
+  margin-bottom: .5rem

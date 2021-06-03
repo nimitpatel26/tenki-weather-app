@@ -1,0 +1,18 @@
+@use "../../config"
+
+.card
+    @include config.std-card
+
+.card:hover
+    @include config.std-card-hover
+
+.card *
+    @include config.std-card-elements
+
+
+.popupContent
+    padding: .1rem
+    background-color: white
+    font-family: sans-serif
+
+
