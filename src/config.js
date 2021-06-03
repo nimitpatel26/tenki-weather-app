@@ -4,9 +4,9 @@
  * */
 const config = {
     api: {
-        weather: "https://tenki.nimitpatel.me/.netlify/functions/weather",
-        news: "https://tenki.nimitpatel.me/.netlify/functions/news",
-        about: "https://tenki.nimitpatel.me/.netlify/functions/about",
+        weather: "/.netlify/functions/weather",
+        news: "/.netlify/functions/news",
+        about: "/.netlify/functions/about",
     },
     start:{
         weather: "Please enter a valid location to get started."
