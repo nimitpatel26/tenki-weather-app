@@ -1,7 +1,7 @@
 # Tenki Weather App
 
 ## Introduction
-This repository contains code to a weather application. It shows weekly weather forecast and when clicking on a weekly forecast, it will show detailed forecast. It also shows news for that particular location. The front-end is in React.js and the back-end is lambda functions written in Go. The application is available live on [weather.nimitpatel.me](https://weather.nimitpatel.me).
+This repository contains code to a weather application. It shows weekly weather forecast and when clicking on a weekly forecast, it will show detailed forecast. It also shows news for that particular location. The front-end is in React.js and the back-end is lambda functions written in Go. The application is available live on [weather.nimitpatel.me](https://weather.nimitpatel.me). Demo for the application can be viewed [here](https://youtu.be/a1XWcVwrlGg).
 
 
 ## Folder/File Info
